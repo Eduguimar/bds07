@@ -2,10 +2,10 @@ import './styles.css';
 
 import ResultCard from 'components/ResultCard';
 
-const CepSearch = () => {
+const GithubSearch = () => {
   return (
-    <div className="cep-search-container">
-      <h1 className="text-primary">Busca CEP</h1>
+    <div className="github-search-container">
+      <h1>Encontre um perfil Github</h1>
       <div className="container search-container">
         <form>
           <div className="form-container">
@@ -23,10 +23,9 @@ const CepSearch = () => {
 
         <ResultCard title="Logradouro" description="Lalala" />
         <ResultCard title="Número" description="234" />
-
       </div>
     </div>
   );
 };
 
-export default CepSearch;
+export default GithubSearch;
