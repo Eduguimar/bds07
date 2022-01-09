@@ -21,6 +21,7 @@ const GithubSearch = () => {
           </div>
         </form>
       </div>
+      <ResultCard title="Teste" description="teste" />
     </div>
   );
 };
