@@ -25,6 +25,15 @@
   margin-top: 5px;
 }
 
+.image-section {
+  margin-right: 25px;
+}
+
+.image-section img {
+  height: 240px;
+  width: 240px;
+}
+
 .profile-data {
   font-weight: bold;
 }
